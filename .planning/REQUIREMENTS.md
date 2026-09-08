@@ -107,13 +107,58 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| (populated during roadmap creation) | | |
+| AGENT-01 | Phase 1 | Pending |
+| AGENT-02 | Phase 1 | Pending |
+| AGENT-03 | Phase 1 | Pending |
+| AGENT-04 | Phase 1 | Pending |
+| AGENT-05 | Phase 1 | Pending |
+| TRACE-01 | Phase 2 | Pending |
+| TRACE-02 | Phase 2 | Pending |
+| TRACE-03 | Phase 2 | Pending |
+| TRACE-04 | Phase 2 | Pending |
+| TRACE-05 | Phase 2 | Pending |
+| TRACE-06 | Phase 2 | Pending |
+| TRACE-07 | Phase 2 | Pending |
+| EVAL-01 | Phase 3 | Pending |
+| EVAL-02 | Phase 3 | Pending |
+| EVAL-03 | Phase 3 | Pending |
+| EVAL-04 | Phase 3 | Pending |
+| EVAL-05 | Phase 3 | Pending |
+| EVAL-06 | Phase 3 | Pending |
+| EVAL-07 | Phase 3 | Pending |
+| EVAL-08 | Phase 3 | Pending |
+| GATE-01 | Phase 3 | Pending |
+| GATE-02 | Phase 3 | Pending |
+| GATE-03 | Phase 3 | Pending |
+| RECOV-01 | Phase 4 | Pending |
+| RECOV-02 | Phase 4 | Pending |
+| RECOV-03 | Phase 4 | Pending |
+| RECOV-04 | Phase 4 | Pending |
+| DASH-01 | Phase 5 | Pending |
+| DASH-02 | Phase 5 | Pending |
+| DASH-03 | Phase 5 | Pending |
+| DASH-04 | Phase 5 | Pending |
+| ART-01 | Phase 2 (starts Phase 2; appended every later phase) | Pending |
+| ART-02 | Phase 5 | Pending |
+| ART-03 | Phase 5 | Pending |
+| ART-04 | Phase 5 | Pending |
+| ART-05 | Phase 5 | Pending |
 
 **Coverage:**
 - v1 requirements: 36 total
-- Mapped to phases: 0
-- Unmapped: 36 ⚠️
+- Mapped to phases: 36
+- Unmapped: 0
+
+**By phase:**
+
+| Phase | Name | Requirements |
+|-------|------|--------------|
+| 1 | Agent | 5 |
+| 2 | Tracing | 8 |
+| 3 | Eval + Quality Gate | 11 |
+| 4 | Checkpoint & Recovery | 4 |
+| 5 | Dashboard, Demo & Teardown | 8 |
 
 ---
 *Requirements defined: 2026-09-08*
-*Last updated: 2026-09-08 after initial definition*
+*Last updated: 2026-09-08 after roadmap creation*
