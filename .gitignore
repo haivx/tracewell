@@ -141,3 +141,11 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# GSD tooling — reinstallable via `npx @opengsd/gsd-core@latest --claude --local`.
+# The vendored framework is not part of this project; the project guide
+# (.claude/CLAUDE.md) and the planning artifacts (.planning/) are tracked.
+.claude/*
+!.claude/CLAUDE.md
+# settings.local.json is machine-local and its hooks point into the ignored
+# .claude/hooks/, so it would be broken on a fresh clone.
